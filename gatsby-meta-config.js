@@ -5,7 +5,7 @@ module.exports = {
   introduction: `Junior Frontend Developer`,
   siteUrl: `https://irisdew.github.io/`, // Your blog site url
   social: {
-    twitter: `@gloomydoochi`, // Your Twitter account
+    twitter: ``, // Your Twitter account
     github: `irisdew`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
