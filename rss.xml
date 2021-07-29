@@ -1,4 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[iris.dew]]></title><description><![CDATA[Blog posted about Web Frontend]]></description><link>https://irisdew.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 28 Jul 2021 15:54:01 GMT</lastBuildDate><item><title><![CDATA[프리온보딩에 온보딩 하기]]></title><description><![CDATA[개발자로 본격 취준을 준비하던 중 나에게 꼭 맞는 프로그램을 발견했다! 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[iris.dew]]></title><description><![CDATA[Blog posted about Web Frontend]]></description><link>https://irisdew.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 29 Jul 2021 14:15:56 GMT</lastBuildDate><item><title><![CDATA[더 나은 리액트 프로젝트를 위해]]></title><description><![CDATA[…]]></description><link>https://irisdew.github.io/pre-onboarding/더-나은-리액트-프로젝트를-위해/</link><guid isPermaLink="false">https://irisdew.github.io/pre-onboarding/더-나은-리액트-프로젝트를-위해/</guid><pubDate>Thu, 29 Jul 2021 22:07:48 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;(작성중)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;프리온보딩 두번째 수업!
+저번 과제에 대한 리뷰를 듣고 중요한 내용을 많이 배울 수 있었다. ✍&lt;/p&gt;
+&lt;h3 id=&quot;주니어에게-필요한-능력&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A3%BC%EB%8B%88%EC%96%B4%EC%97%90%EA%B2%8C-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8A%A5%EB%A0%A5&quot; aria-label=&quot;주니어에게 필요한 능력 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;주니어에게 필요한 능력&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;남이 만들어놓은 걸 갖다 쓰는걸 잘해야한다 &lt;br/&gt; (다른 사람의 코드, 라이브러리)&lt;/li&gt;
+&lt;li&gt;문서를 잘 읽어야한다&lt;/li&gt;
+&lt;li&gt;이미 소스코드가 만들어져 있는 시점에 투입됨&lt;/li&gt;
+&lt;li&gt;남의 코드를 읽고 분석을 잘하는 것 중요!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;cra-구조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cra-%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;cra 구조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CRA 구조&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;하나의 구조만 고집하지 말기!&lt;/li&gt;
+&lt;li&gt;다른 사람들의 코드, 국내 스타트업의 구조 살펴보기👀&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;css-with-react&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#css-with-react&quot; aria-label=&quot;css with react permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CSS with React&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Styled component가 등장한 이유
+: 전역스타일 오염 떄문! - styled component 안에 className을 쓰면 오염이 일어날 수 있음&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Styled component의 단점&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;html 구조가 한눈에 잘 안보임 div인지 a인지…&lt;/li&gt;
+&lt;li&gt;한 파일에 코드가 너무 많아짐. 이해하기가 어려움&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sass module&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;commit-message&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#commit-message&quot; aria-label=&quot;commit message permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Commit Message&lt;/h3&gt;
+&lt;h3 id=&quot;페어-프로그래밍-tip&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8E%98%EC%96%B4-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-tip&quot; aria-label=&quot;페어 프로그래밍 tip permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;페어 프로그래밍 Tip&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;둘의 실력차이가 필연적으로 있다&lt;/li&gt;
+&lt;li&gt;말을 많이 꺼내기👄 &lt;br/&gt; 명확히 말할 수 있어야 아는 것인데 페어에게 설명하면서 &lt;br/&gt; 내가 아는 것/모르는 것을 알게된다&lt;/li&gt;
+&lt;li&gt;모르면 까짓것 틀리면 됨! 상대방에게 감사함을 표시🙏 &lt;br/&gt; 궁금한건 바로 물어보면 가장 좋고! &lt;br/&gt;적어도 메모한 뒤 나중에 꼬옥 이해 못한 부분 찾아보기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;html과-css의-중요성-잊지-말기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#html%EA%B3%BC-css%EC%9D%98-%EC%A4%91%EC%9A%94%EC%84%B1-%EC%9E%8A%EC%A7%80-%EB%A7%90%EA%B8%B0&quot; aria-label=&quot;html과 css의 중요성 잊지 말기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML과 CSS의 중요성 잊지 말기!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;div 남발해도 되지만, 굳이 필요없는 경우는 depth만 길어진다&lt;/li&gt;
+&lt;li&gt;css는 경험이 중요하다.
+백만가지 방법 존재하지만, 꼭꼭 공부해야함!
+잘 작성해야 유지보수 가능&lt;/li&gt;
+&lt;li&gt;property를 지웠을 때 동일하다면 쓸모없는 코드!&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;flex&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;default로 원래 세로배치인데
+가로배치로 바꾸어준 혁명!&lt;/li&gt;
+&lt;li&gt;그럼 세로배치를 하고 싶을 때는 flex를 굳이 쓸 필요가 있을까? NO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; flex&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token property&quot;&gt;flex-direction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; column&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;(내가 저번 과제에 딱 이렇게 해서 뜨끔!)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;여백 오사용 주의&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;height 유의해서 사용하기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;자식의 크기가 부모의 크기를 결정한다&lt;/li&gt;
+&lt;li&gt;내용 길이가 유동적인 경우! height를 주면 안된다.&lt;/li&gt;
+&lt;li&gt;height가 아니라 여백으로 잡는게 일반적&lt;/li&gt;
+&lt;li&gt;높이를 줘야하는 경우보다 주지 않아야 할 경우가 더 많다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;게으름이-좋은-코드를-만든다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%8C%EC%9C%BC%EB%A6%84%EC%9D%B4-%EC%A2%8B%EC%9D%80-%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%A7%8C%EB%93%A0%EB%8B%A4&quot; aria-label=&quot;게으름이 좋은 코드를 만든다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;게으름이 좋은 코드를 만든다&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;설정하는 시간 &amp;lt;&amp;lt;&amp;lt; 이후의 생산성&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;상수로 관리해야하는 것들 &lt;code class=&quot;language-text&quot;&gt;필수&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;BASE_URL&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;https://jsonplaceholder.fakeapi.com/&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;ERROR_MESSAGE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&apos;Failed to fetch data, please check your API or internet connection&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;LIMIT&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;DEFAULT_PAGE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;API url, 요소 개수, 에러메세지, 시작하는 페이지&lt;/li&gt;
+&lt;li&gt;상수 쓸 때 항상 대문자, _&lt;/li&gt;
+&lt;li&gt;BASE_URL은 정말 딱 기본주소까지만!&lt;/li&gt;
+&lt;li&gt;컴포넌트 안에 넣으면 안됨!
+(죽어도 이 컴포넌트에서만 쓰는 상수, 함수는 import 라인과 컴포넌트 함수 사이에 해도 거기까지는 OK)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;절대경로 설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;import 할 때 절대경로, alias 설정하기 &lt;code class=&quot;language-text&quot;&gt;../../&lt;/code&gt; 이런 코드가 줄어듦&lt;/li&gt;
+&lt;li&gt;import도 순서 맞춰서 보기좋게&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;폴리필과-크로스-브라우징&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8F%B4%EB%A6%AC%ED%95%84%EA%B3%BC-%ED%81%AC%EB%A1%9C%EC%8A%A4-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95&quot; aria-label=&quot;폴리필과 크로스 브라우징 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;폴리필과 크로스 브라우징&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://caniuse.com/&quot;&gt;https://caniuse.com/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ex) Intersection Observer API를 사용하면 ie에서는 지원 안됨 (MDN문서 확인)&lt;/li&gt;
+&lt;li&gt;ie는 버릴 수가 없다 😥 (크롬 많이 쓰는 것 같아도 ie 접속자가 아직 많다!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;react를-왜-사용하나요-대답하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#react%EB%A5%BC-%EC%99%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98%EC%9A%94-%EB%8C%80%EB%8B%B5%ED%95%98%EA%B8%B0&quot; aria-label=&quot;react를 왜 사용하나요 대답하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;React를 왜 사용하나요? 대답하기&lt;/h3&gt;
+&lt;h3 id=&quot;utils로-관리해야하는-함수&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#utils%EB%A1%9C-%EA%B4%80%EB%A6%AC%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-%ED%95%A8%EC%88%98&quot; aria-label=&quot;utils로 관리해야하는 함수 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;utils로 관리해야하는 함수&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;한번만 쓰는게 아니라 다른 곳에서도 어러번 사용되는 함수&lt;/li&gt;
+&lt;li&gt;custom hook도 utils에 포함될 수 있음&lt;/li&gt;
+&lt;li&gt;2개 이상의 컴포넌트에 사용되는 함수다 → utils 함수로 분리하는 게 좋음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;frontend에서의-unit-test&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#frontend%EC%97%90%EC%84%9C%EC%9D%98-unit-test&quot; aria-label=&quot;frontend에서의 unit test permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Frontend에서의 unit test&lt;/h3&gt;
+&lt;h3 id=&quot;json&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#json&quot; aria-label=&quot;json permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JSON&lt;/h3&gt;
+&lt;h3 id=&quot;mock-data&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#mock-data&quot; aria-label=&quot;mock data permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;mock data&lt;/h3&gt;
+&lt;p&gt;이 많은 주제를 2시간 안에 다루다니! 정말이지 너무 알차서 눈물이 난다😂
+프론트엔드 개발자라면 필수적으로 무.조.건 알아야하는 것들인데 더더 공부하고 더더 확실히 알아두겠다! 😎&lt;/p&gt;</content:encoded></item><item><title><![CDATA[프리온보딩에 온보딩 하기]]></title><description><![CDATA[개발자로 본격 취준을 준비하던 중 나에게 꼭 맞는 프로그램을 발견했다! 
 원티드 x 루트임팩트 x wecode가 함께 진행하는 프리온보딩 코스 🚀 
 선착순 7…]]></description><link>https://irisdew.github.io/pre-onboarding/프리온보딩에-온보딩-하기/</link><guid isPermaLink="false">https://irisdew.github.io/pre-onboarding/프리온보딩에-온보딩-하기/</guid><pubDate>Mon, 26 Jul 2021 22:07:00 GMT</pubDate><content:encoded>&lt;p&gt;개발자로 본격 취준을 준비하던 중 나에게 꼭 맞는 프로그램을 발견했다! &lt;br/&gt;
 원티드 x 루트임팩트 x wecode가 함께 진행하는 &lt;strong&gt;프리온보딩 코스&lt;/strong&gt; 🚀 &lt;br/&gt;
