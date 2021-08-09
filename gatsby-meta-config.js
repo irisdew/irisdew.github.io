@@ -19,7 +19,7 @@ module.exports = {
     utterances: 'irisdew/irisdew.github.io', // Your repository for archive comment
   },
   configs: {
-    countOfInitialPost: 3, // Config your initial count of post
+    countOfInitialPost: 5, // Config your initial count of post
   },
   sponsor: {
     buyMeACoffeeId: '',

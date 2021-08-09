@@ -1,12 +1,12 @@
 ---
 title: React로 사고하기
 date: 2021-08-09 23:08:25
-category: pre-onboarding
+category: react
 thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-`리액트 공식문서 <React로 사고하기>를 읽고 정리한 글입니다.`
+_**리액트 공식문서 - [React로 사고하기](https://ko.reactjs.org/docs/thinking-in-react.html)를 읽고 정리한 글입니다.**_
 
 ### 단일 책임 원칙
 **_single responsibility principle_**
