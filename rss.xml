@@ -1,18 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[iris.dew]]></title><description><![CDATA[Blog posted about Web Frontend]]></description><link>https://irisdew.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Aug 2021 07:24:24 GMT</lastBuildDate><item><title><![CDATA[이벤트 루프]]></title><link>https://irisdew.github.io/development/이벤트-루프/</link><guid isPermaLink="false">https://irisdew.github.io/development/이벤트-루프/</guid><pubDate>Fri, 13 Aug 2021 16:09:13 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[브라우저 동작 원리]]></title><description><![CDATA[브라우저란? 월드와이드웹(WWW)에서 정보를 검색, 표현, 탐색하기 위한 소프트웨어 브라우저의 핵심 기능은 사용자가 선택한 자원을 서버에 요청하고 브라우저에 표시하는 것 💡 자원 Resource…]]></description><link>https://irisdew.github.io/development/브라우저-동작-원리/</link><guid isPermaLink="false">https://irisdew.github.io/development/브라우저-동작-원리/</guid><pubDate>Fri, 13 Aug 2021 14:08:55 GMT</pubDate><content:encoded>&lt;h2 id=&quot;브라우저란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EB%9E%80&quot; aria-label=&quot;브라우저란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;브라우저란?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[iris.dew]]></title><description><![CDATA[Blog posted about Web Frontend]]></description><link>https://irisdew.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Aug 2021 07:46:05 GMT</lastBuildDate><item><title><![CDATA[이벤트 루프]]></title><link>https://irisdew.github.io/development/이벤트-루프/</link><guid isPermaLink="false">https://irisdew.github.io/development/이벤트-루프/</guid><pubDate>Fri, 13 Aug 2021 16:09:13 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[브라우저 동작 원리]]></title><description><![CDATA[브라우저란? 월드와이드웹(WWW)에서 정보를 검색, 표현, 탐색하기 위한 소프트웨어 브라우저의 핵심 기능은 사용자가 선택한 자원을 서버에 요청하고 브라우저에 표시하는 것 💡 자원 Resource…]]></description><link>https://irisdew.github.io/development/브라우저-동작-원리/</link><guid isPermaLink="false">https://irisdew.github.io/development/브라우저-동작-원리/</guid><pubDate>Fri, 13 Aug 2021 14:08:55 GMT</pubDate><content:encoded>&lt;h2 id=&quot;브라우저란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EB%9E%80&quot; aria-label=&quot;브라우저란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;브라우저란?&lt;/h2&gt;
 &lt;p&gt;월드와이드웹(WWW)에서 정보를 검색, 표현, 탐색하기 위한 소프트웨어&lt;/p&gt;
 &lt;p&gt;브라우저의 핵심 기능은 사용자가 선택한 &lt;strong&gt;자원&lt;/strong&gt;을 서버에 요청하고 브라우저에 표시하는 것&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;💡 &lt;strong&gt;자원 Resource&lt;/strong&gt; &lt;br /&gt;
-사용자가 원하는 웹페이지를 구성하기 위해 필요한 파일들 (HTML, CSS, JS, 이미지 …)&lt;/p&gt;
+사용자가 원하는 웹페이지를 구성하기 위해 필요한 파일들
+(HTML, CSS, JS, 이미지 …)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;브라우저는 HTML과 CSS 명세 &lt;em&gt;(웹 표준화 기구인 W3C(World Wide Web Consortium)에서 정해진 명세)&lt;/em&gt; 에 따라 HTML 파일을 해석해서 표시&lt;/p&gt;
 &lt;br /&gt;
 &lt;h2 id=&quot;브라우저-구조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;브라우저 구조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;브라우저 구조&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/76525368/129310978-457fe83d-5648-4219-871e-ddf38b9d3f39.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;UI&lt;/strong&gt; User Interface 사용자 인터페이스
-주소 표시 줄 / 이전 버튼과 다음 버튼 / 북마크 / 새로 고침, 정지, 홈 버튼 등…
-요청한 페이지를 보여주는 창을 제외하고 사용자와 상호작용하는 나머지 부분&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;UI&lt;/strong&gt; User Interface 사용자 인터페이스
+주소 표시 줄 / 이전 버튼과 다음 버튼 / 북마크 / 새로 고침, 정지, 홈 버튼 등…&lt;/p&gt;
+&lt;p&gt;요청한 페이지를 보여주는 창을 제외하고 사용자와 상호작용하는 나머지 부분&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Broweser Engine&lt;/strong&gt; 브라우저 엔진
 사용자 인터페이스와 렌더링 엔진을 연결
 브라우저 소프트웨어를 동작시켜주는 핵심 엔진&lt;/li&gt;
@@ -33,6 +36,7 @@ HTML과 CSS를 파싱하여 웹페이지를 화면에 표시&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
+ &lt;br /&gt;
 &lt;blockquote&gt;
 &lt;p&gt;🧭 &lt;strong&gt;브라우저마다 다른 렌더링 엔진&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -47,31 +51,40 @@ HTML과 CSS를 파싱하여 웹페이지를 화면에 표시&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Networking&lt;/strong&gt; 네트워크
-HTTP 요청과 같은 네트워크 호출에 사용, 각종 네트워크 요청을 수행, 서버와 통신&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;JavaScript Interpreter&lt;/strong&gt; 자바스크립트 해석기
-자바스크립트 코드를 실행하는 인터프리터
-Chrome의 경우 V8을 사용&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Networking&lt;/strong&gt; 네트워크&lt;/p&gt;
+&lt;p&gt;HTTP 요청과 같은 네트워크 호출에 사용, 각종 네트워크 요청을 수행, 서버와 통신&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;JavaScript Interpreter&lt;/strong&gt; 자바스크립트 해석기&lt;/p&gt;
+&lt;p&gt;자바스크립트 코드를 실행하는 인터프리터&lt;/p&gt;
+&lt;p&gt;Chrome의 경우 V8을 사용&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt; 💡 &lt;strong&gt;JavaScript는 Rendering Engine이 아닌 JavaScript Interpreter가 처리한다&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;HTML 파서는 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&gt;&lt;/code&gt;태그를 만나면 자바스크립트 코드를 실행하기 위해 DOM 생성 프로세스를 중지하고 자바스크립트 엔진으로 제어 권한을 넘긴다&lt;/li&gt;
-&lt;li&gt;제어 권한을 넘겨받은 자바스크립트 엔진은 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&gt;&lt;/code&gt;태그 내의 자바스크립트 코드 or &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&gt;&lt;/code&gt;태그의 src에 적의된 js 파일을 로드하고 파싱하여 실행한다&lt;/li&gt;
+&lt;li&gt;제어 권한을 넘겨받은 자바스크립트 엔진은 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&gt;&lt;/code&gt;태그 내의 자바스크립트 코드 or &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&gt;&lt;/code&gt;태그의 src에 정의된 js 파일을 로드하고 파싱하여 실행한다&lt;/li&gt;
 &lt;li&gt;자바스크립트의 실행이 완료되면 다시 HTML 파서로 제어 권한을 넘겨 브라우저가 중지했던 시점부터 DOM 생성을 재개한다 &lt;br/&gt;
 ➡ 그러므로 HTML 요소를 다 처리한 이후, 자바스크립트를 처리할 수 있도록  &lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;body&gt;&lt;/code&gt;태그 하단&lt;/strong&gt;에 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&gt;&lt;/code&gt;태그를 위치시키는 것이 좋다&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
+&lt;br /&gt;
 &lt;blockquote&gt;
-&lt;p&gt;🔧 JavaScript 코드는 &lt;strong&gt;body 태그 하단&lt;/strong&gt;에 위치하면 script 로딩 지연으로 인해 동기적으로 동작하는 브라우저 동작에 blocking이 발생하지 않아 페이지 로딩 시간이 단축된다. &lt;br /&gt;
-💄 CSS 코드는 &lt;strong&gt;head 태그 안&lt;/strong&gt;에 위치하여 렌더링 처리 시에 브라우저가 더 빨리 참고할 수 있게 하는 것이 좋다.&lt;/p&gt;
+&lt;p&gt;🔧 JavaScript 코드는 &lt;strong&gt;body 태그 하단&lt;/strong&gt;에 위치하면 script 로딩 지연으로 인해 동기적으로 동작하는 브라우저 동작에 blocking이 발생하지 않아 페이지 로딩 시간이 단축된다. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💄 CSS 코드는 &lt;strong&gt;head 태그 안&lt;/strong&gt;에 위치하여 렌더링 처리 시에 브라우저가 더 빨리 참고할 수 있게 하는 것이 좋다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;UI Backend&lt;/strong&gt;
-UI를 처리할 수 있는 백엔드 영역&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data Persistence&lt;/strong&gt; 자료 저장소
-자료를 저장하는 계층
-localStorage나 Cookie와 같이 보조 기억장치에 데이터를 저장하는 파트&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;UI Backend&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;UI를 처리할 수 있는 백엔드 영역&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Data Persistence&lt;/strong&gt; 자료 저장소&lt;/p&gt;
+&lt;p&gt;자료를 저장하는 계층&lt;/p&gt;
+&lt;p&gt;localStorage나 Cookie와 같이 보조 기억장치에 데이터를 저장하는 파트&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 &lt;h2 id=&quot;브라우저-렌더링-과정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95&quot; aria-label=&quot;브라우저 렌더링 과정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;브라우저 렌더링 과정&lt;/h2&gt;
@@ -128,11 +141,10 @@ localStorage나 Cookie와 같이 보조 기억장치에 데이터를 저장하�
 &lt;li&gt;Chrome의 경우에는 레이아웃 과정 이후에 정해진 기준이나 필요에 의해서 브라우저가 레이어를 생성 &lt;/li&gt;
 &lt;li&gt;렌더링 엔진이 각 레이어를 프린팅 과정에서 각각 그려준 다음에 하나의 비트맵으로 합성해서 페이지를 완성&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br /&gt;
+&gt; 👀 [https://csstriggers.com/](https://csstriggers.com/) 에서 &lt;br/&gt; 브라우저, CSS요소에 따라 3가지 중 어떤 경우가 발생하는지 알 수 있음!
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;👀 &lt;a href=&quot;https://csstriggers.com/&quot;&gt;https://csstriggers.com/&lt;/a&gt; 에서 &lt;br/&gt; 브라우저, CSS요소에 따라 3가지 중 어떤 경우가 발생하는지 알 수 있음!&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;br /&gt;
 &lt;hr/&gt;
 &lt;h4 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h4&gt;
@@ -140,7 +152,11 @@ localStorage나 Cookie와 같이 보조 기억장치에 데이터를 저장하�
 &lt;li&gt;&lt;a href=&quot;https://poiemaweb.com/js-browser&quot;&gt;https://poiemaweb.com/js-browser&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;우아한테코톡 - 브라우저 렌더링 &lt;a href=&quot;https://youtu.be/sJ14cWjrNis&quot;&gt;https://youtu.be/sJ14cWjrNis&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;우아한테코톡 - Virtual DOM &lt;a href=&quot;https://youtu.be/PN_WmsgbQCo&quot;&gt;https://youtu.be/PN_WmsgbQCo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;부스트코스 웹 풀스택 browser의 동작 &lt;a href=&quot;https://www.boostcourse.org/web316/lecture/254256&quot;&gt;https://www.boostcourse.org/web316/lecture/254256&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;부스트코스 웹 풀스택 browser의 동작 &lt;a href=&quot;https://www.boostcourse.org/web316/lecture/254256&quot;&gt;https://www.boostcourse.org/web316/lecture/254256&lt;/a&gt;&lt;/p&gt;
+&lt;br /&gt;   
+&lt;br /&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[React로 사고하기]]></title><description><![CDATA[리액트 공식문서 - React로 사고하기를 읽고 정리한 글입니다. 단일 책임 원칙 single responsibility principle 하나의 컴포넌트는 한가지 일을 하는게 이상적이라는 원칙 1 컴포넌트 1 일 1 함수 1 일 1 파일…]]></description><link>https://irisdew.github.io/react/react로-사고하기/</link><guid isPermaLink="false">https://irisdew.github.io/react/react로-사고하기/</guid><pubDate>Mon, 09 Aug 2021 23:08:25 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;&lt;strong&gt;리액트 공식문서 - &lt;a href=&quot;https://ko.reactjs.org/docs/thinking-in-react.html&quot;&gt;React로 사고하기&lt;/a&gt;를 읽고 정리한 글입니다.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&quot;단일-책임-원칙&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A8%EC%9D%BC-%EC%B1%85%EC%9E%84-%EC%9B%90%EC%B9%99&quot; aria-label=&quot;단일 책임 원칙 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;단일 책임 원칙&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;single responsibility principle&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -427,7 +443,7 @@ sub-menu를 열고 닫는 이벤트를 어떻게 할지 고민했다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
 &lt;hr&gt;
-&lt;p&gt;Orientation에서 실제 채용 과제 전형이었으면 10%만 합격했을 것이다…라는 말을 듣고 매우 뜨끔!&lt;/p&gt;
+&lt;h1 id=&quot;orientation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#orientation&quot; aria-label=&quot;orientation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Orientation&lt;/h1&gt;
 &lt;h3 id=&quot;기본적으로-지켜야-할-것들&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A7%80%EC%BC%9C%EC%95%BC-%ED%95%A0-%EA%B2%83%EB%93%A4&quot; aria-label=&quot;기본적으로 지켜야 할 것들 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;기본적으로 지켜야 할 것들&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;gitignore 관리 🌝&lt;/li&gt;
@@ -482,12 +498,7 @@ sub-menu를 열고 닫는 이벤트를 어떻게 할지 고민했다.&lt;/li&gt;
 &lt;li&gt;원티드 이력서, 로켓펀치 프로필, 링크드인 프로필 등등 각종 플랫폼을 이해하고 활용해서 나를 최대한 표현하자!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
-&lt;hr&gt;
-&lt;p&gt;과연 9월에 내가 취업할 수 있을까? 라고 생각했지만 &lt;br/&gt;
-프리온보딩 기간동안 나는 성장하고 꼭 취업할 것이다! &lt;br/&gt;
-멘토님이 전원 취뽀할거라고 예언적으로 말해주셔서 마구마구 힘이났다. 힘힘! 💪
-&lt;br/&gt;
-&lt;br/&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://irisdew.github.io/development/quick_start/</link><guid isPermaLink="false">https://irisdew.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
+&lt;br/&gt;</content:encoded></item><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://irisdew.github.io/development/quick_start/</link><guid isPermaLink="false">https://irisdew.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
 &lt;h2 id=&quot;1-create-a-gatsby-site&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-create-a-gatsby-site&quot; aria-label=&quot;1 create a gatsby site permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Create a Gatsby site.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# create a new Gatsby site using the blog starter
 $ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
