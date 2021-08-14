@@ -83,9 +83,11 @@
 <h2 id="브라우저-구조" style="position:relative;"><a href="#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EA%B5%AC%EC%A1%B0" aria-label="브라우저 구조 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>브라우저 구조</h2>
 <p><img src="https://user-images.githubusercontent.com/76525368/129310978-457fe83d-5648-4219-871e-ddf38b9d3f39.png" alt="image"></p>
 <ul>
-<li><strong>UI</strong> User Interface 사용자 인터페이스
-주소 표시 줄 / 이전 버튼과 다음 버튼 / 북마크 / 새로 고침, 정지, 홈 버튼 등…
-요청한 페이지를 보여주는 창을 제외하고 사용자와 상호작용하는 나머지 부분</li>
+<li>
+<p><strong>UI</strong> User Interface 사용자 인터페이스
+주소 표시 줄 / 이전 버튼과 다음 버튼 / 북마크 / 새로 고침, 정지, 홈 버튼 등…</p>
+<p>요청한 페이지를 보여주는 창을 제외하고 사용자와 상호작용하는 나머지 부분</p>
+</li>
 <li><strong>Broweser Engine</strong> 브라우저 엔진
 사용자 인터페이스와 렌더링 엔진을 연결
 브라우저 소프트웨어를 동작시켜주는 핵심 엔진</li>
@@ -130,7 +132,7 @@ HTML과 CSS를 파싱하여 웹페이지를 화면에 표시</p>
 <p>자바스크립트 코드를 실행하는 인터프리터</p>
 <p>Chrome의 경우 V8을 사용</p>
 <blockquote>
-<p> 💡 <strong>JavaScript는 Rendering Engine이 아닌 JavaScript Interpreter가 처리한다</strong></p>
+<p> 💡 <strong>JavaScript는 렌더링 엔진이 아닌 JavaScript Interpreter가 처리한다</strong></p>
 <ul>
 <li>HTML 파서는 <code class="language-text">&lt;script></code>태그를 만나면 자바스크립트 코드를 실행하기 위해 DOM 생성 프로세스를 중지하고 자바스크립트 엔진으로 제어 권한을 넘긴다</li>
 <li>제어 권한을 넘겨받은 자바스크립트 엔진은 <code class="language-text">&lt;script></code>태그 내의 자바스크립트 코드 or <code class="language-text">&lt;script></code>태그의 src에 정의된 js 파일을 로드하고 파싱하여 실행한다</li>
@@ -212,12 +214,14 @@ HTML과 CSS를 파싱하여 웹페이지를 화면에 표시</p>
 <li>렌더링 엔진이 각 레이어를 프린팅 과정에서 각각 그려준 다음에 하나의 비트맵으로 합성해서 페이지를 완성</li>
 </ul>
 <br />
-> 👀 [https://csstriggers.com/](https://csstriggers.com/) 에서 <br/> 브라우저, CSS요소에 따라 3가지 중 어떤 경우가 발생하는지 알 수 있음!
 </li>
 </ol>
+<blockquote>
+<p>👀 <a href="https://csstriggers.com/">https://csstriggers.com/</a> 에서 <br/> 브라우저, CSS요소에 따라 3가지 중 어떤 경우가 발생하는지 알 수 있음!</p>
+</blockquote>
 <br />
 <hr/>
-<h4 id="reference" style="position:relative;"><a href="#reference" aria-label="reference permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reference</h4>
+<h3 id="reference" style="position:relative;"><a href="#reference" aria-label="reference permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reference</h3>
 <ul>
 <li><a href="https://poiemaweb.com/js-browser">https://poiemaweb.com/js-browser</a></li>
 <li>우아한테코톡 - 브라우저 렌더링 <a href="https://youtu.be/sJ14cWjrNis">https://youtu.be/sJ14cWjrNis</a></li>
